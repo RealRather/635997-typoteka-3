@@ -1,7 +1,7 @@
 # Личный проект «Типотека» [![Build status][travis-image]][travis-url]
 
 * Студент: [Ирина Романова](https://up.htmlacademy.ru/nodejs/3/user/635997).
-* Наставник: `Неизвестно`.
+* Наставник: [Ринат Мухамедгалиев](https://htmlacademy.ru/profile/id779003).
 
 ---
 
