@@ -1,7 +1,7 @@
 {
   "name": "typoteka",
   "version": "1.0.0",
-  "description": "\"Типотека\"",
+  "description": "Типотека",
   "main": "./src/service/service.js",
   "scripts": {
     "test": "npm run eslint",
