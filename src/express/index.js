@@ -13,4 +13,4 @@ app.use(`/articles`, articlesRoutes);
 app.use(`/my`, myRoutes);
 app.use(`/`, mainRoutes);
 
-app.listen(PORT);
+app.listen(PORT, () => console.log(`Сервер запущен и работает на порту: ${PORT}`));
