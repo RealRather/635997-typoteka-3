@@ -1,16 +1,16 @@
 'use strict';
 
 const chalk = require(`chalk`);
-const expres = require(`express`);
+const express = require(`express`);
 const fs = require(`fs`).promises;
 const {HttpCode} = require(`../../constants`);
 
 const DEFAULT_PORT = 3000;
 const FILENAME = `mocks.json`;
 
-const app = expres();
+const app = express();
 
-app.use(expres.json());
+app.use(express.json());
 
 app.get(`/posts`, async (req, res) => {
   try {
